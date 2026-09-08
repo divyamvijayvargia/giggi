@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Gargi Ahuja Show - A Friends-themed personal website showcasing life, memories, and adventures.">
+    <title>The Gargi Ahuja Show</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Permanent+Marker&family=Patrick+Hand&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ====== HEADER ====== -->
+    <header id="header">
+        <div class="header-title">
+            <h1>The <span class="dot">•</span> Giggi <span class="dot">•</span><span class="dot">•</span> Show</h1>
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home <span class="coffee">☕</span></a></li>
+                <li><a href="#about">About Me <span class="coffee">☕</span></a></li>
+                <li><a href="#gallery">Gallery <span class="coffee">☕</span></a></li>
+                <li><a href="#blog">Blog <span class="coffee">☕</span></a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ====== HERO SECTION ====== -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-image-wrapper">
+            <img src="assets/01.jpeg" alt="Gargi at Celebal Technologies" class="hero-bg">
+        </div>
+        <div class="hero-content">
+            <div class="hero-heading">
+                <span class="hero-welcome">Welcome</span>
+                <span class="hero-to-the-one">to the one</span>
+                <span class="hero-where">where Gargi has</span>
+                <span class="hero-website">a Website!</span>
+            </div>
+            <p class="hero-subtitle">How You Doin'?</p>
+            <a href="#about" class="btn-learn-more">Learn More</a>
+        </div>
+    </section>
+
+    <!-- ====== ABOUT SECTION ====== -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-image-frame">
+                <img src="assets/02.jpeg" alt="Gargi Ahuja - Guest Speaker" class="about-image">
+            </div>
+            <div class="about-text-box">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">The One With My Story</p>
+                <p class="about-description">
+                    A little bit about me, my love for Gargi's interests, and yes, my unhealthy 
+                    obsession with <em>Friends</em>. I code, I explore, and I have opinions about life that 
+                    nobody asked for.
+                </p>
+                <ul class="about-list">
+                    <li>Data Scientist at Celebal Technologies</li>
+                    <li>Guest Speaker & Knowledge Sharer</li>
+                    <li>Loves late-night adventures with friends</li>
+                    <li>Can quote every Thanksgiving episode</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== GALLERY SECTION ====== -->
+    <section id="gallery" class="gallery-section">
+        <h2 class="section-title center">Photo Gallery</h2>
+        <p class="section-subtitle center">The One With All The Photos</p>
+        <div class="gallery-grid">
+            <div class="polaroid" data-caption="The One With The Whole Gang">
+                <div class="polaroid-inner">
+                    <img src="assets/05.jpeg" alt="Group photo with friends" loading="lazy">
+                </div>
+                <p class="polaroid-caption">The One With The Whole Gang</p>
+            </div>
+            <div class="polaroid" data-caption="The One At The Park">
+                <div class="polaroid-inner">
+                    <img src="assets/08.jpeg" alt="Night outing with friends" loading="lazy">
+                </div>
+                <p class="polaroid-caption">The One At The Park</p>
+            </div>
+            <div class="polaroid" data-caption="The One With The Purple Wall">
+                <div class="polaroid-inner">
+                    <img src="assets/13.jpeg" alt="At the office" loading="lazy">
+                </div>
+                <p class="polaroid-caption">The One With The Purple Wall</p>
+            </div>
+            <div class="polaroid" data-caption="The One With The Cheesecake">
+                <div class="polaroid-inner">
+                    <img src="assets/03.jpeg" alt="Friends at outdoor cafe" loading="lazy">
+                </div>
+                <p class="polaroid-caption">The One With The Surprise</p>
+            </div>
+            <div class="polaroid" data-caption="The One Where I Sing">
+                <div class="polaroid-inner">
+                    <img src="assets/07.jpeg" alt="Fun times with balloon" loading="lazy">
+                </div>
+                <p class="polaroid-caption">The One Where I Sing</p>
+            </div>
+            <div class="polaroid" data-caption="The One With The Turkey">
+                <div class="polaroid-inner">
+                    <img src="assets/10.jpeg" alt="Group by the car" loading="lazy">
+                </div>
+                <p class="polaroid-caption">The One With The Last Good Bye</p>
+            </div>
+        </div>
+
+        <!-- Extra Gallery Row -->
+        <div class="gallery-grid second-row">
+            <div class="polaroid" data-caption="The One At Work">
+                <div class="polaroid-inner">
+                    <img src="assets/17.jpeg" alt="At work with colleague" loading="lazy">
+                </div>
+                <p class="polaroid-caption">The One At Work</p>
+            </div>
+            <div class="polaroid" data-caption="The One With The High Five">
+                <div class="polaroid-inner">
+                    <img src="assets/11.jpeg" alt="High five at work" loading="lazy">
+                </div>
+                <p class="polaroid-caption">The One With The High Five</p>
+            </div>
+            <div class="polaroid" data-caption="The One With The Award">
+                <div class="polaroid-inner">
+                    <img src="assets/20.jpeg" alt="Among the flowers" loading="lazy">
+                </div>
+                <p class="polaroid-caption">The One With The Flowers</p>
+            </div>
+            <div class="polaroid" data-caption="The One With The Nap">
+                <div class="polaroid-inner">
+                    <img src="assets/18.jpeg" alt="Napping at work" loading="lazy">
+                </div>
+                <p class="polaroid-caption">The One With The Nap</p>
+            </div>
+            <div class="polaroid" data-caption="The One At Night">
+                <div class="polaroid-inner">
+                    <img src="assets/12.jpeg" alt="Night out" loading="lazy">
+                </div>
+                <p class="polaroid-caption">The One At Night</p>
+            </div>
+            <div class="polaroid" data-caption="The One With The Smile">
+                <div class="polaroid-inner">
+                    <img src="assets/19.jpeg" alt="Posing at work" loading="lazy">
+                </div>
+                <p class="polaroid-caption">The One With The Smile</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== BLOG SECTION ====== -->
+    <section id="blog" class="blog-section">
+        <h2 class="section-title center">Blog</h2>
+        <p class="section-subtitle center">The One Where I Write Stuff</p>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <div class="blog-card-image">
+                    <img src="assets/06.jpeg" alt="Blog post about celebrations" loading="lazy">
+                </div>
+                <div class="blog-card-content">
+                    <span class="blog-date">Season 1, Episode 1</span>
+                    <h3>The One Where It All Began</h3>
+                    <p>My journey into tech, data science, and how Friends reruns kept me sane through debugging sessions at 3 AM...</p>
+                    <a href="#" class="blog-read-more">Read More →</a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-card-image">
+                    <img src="assets/14.jpeg" alt="Blog post about friends" loading="lazy">
+                </div>
+                <div class="blog-card-content">
+                    <span class="blog-date">Season 1, Episode 2</span>
+                    <h3>The One With The Best Friends</h3>
+                    <p>Because real friends don't let you deploy on Friday. Adventures, laughter, and memories that could fill ten seasons...</p>
+                    <a href="#" class="blog-read-more">Read More →</a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-card-image">
+                    <img src="assets/09.jpeg" alt="Blog post about night life" loading="lazy">
+                </div>
+                <div class="blog-card-content">
+                    <span class="blog-date">Season 1, Episode 3</span>
+                    <h3>The One With The Late Night Walks</h3>
+                    <p>Exploring the city after hours, finding the best street food, and wondering if Central Perk would've been better...</p>
+                    <a href="#" class="blog-read-more">Read More →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ====== CONTACT SECTION ====== -->
+    <!-- <section id="contact" class="contact-section">
+        <h2 class="section-title center light">Get In Touch</h2>
+        <p class="section-subtitle center light">The One Where You Say Hi</p>
+        <form class="contact-form" id="contact-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" id="subject" placeholder="Subject">
+            </div>
+            <div class="form-group">
+                <textarea id="message" rows="5" placeholder="Your Message..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send It! 🚀</button>
+        </form>
+    </section> -->
+
+    <!-- ====== FOOTER ====== -->
+    <footer id="footer">
+        <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+                <span>Pivot!</span>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+                <span>Pivot!</span>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+                <span>Muah!</span>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+                <span>We were on a break!</span>
+            </a>
+        </div>
+        <p class="footer-tagline">I'll be there for you — Gargi Ahuja, every Thursday at 8pm.</p>
+    </footer>
+
+    <!-- ====== LIGHTBOX MODAL ====== -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close lightbox">&times;</button>
+        <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous image">&#10094;</button>
+        <button class="lightbox-next" id="lightbox-next" aria-label="Next image">&#10095;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-img">
+            <p class="lightbox-caption" id="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
